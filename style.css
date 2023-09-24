@@ -205,11 +205,11 @@ body {
 #serviços, #portifolio, #contato {
     font-size: 22px;
     background: #00abf0;
-    text-align: center; /* Define o alinhamento do texto ao centro */
-    display: flex; /* Use flex para centralizar verticalmente */
-    justify-content: center; /* Use justify-content para centralizar horizontalmente */
-    align-items: flex-start; /* Centraliza no topo */
-    height: 10vh; /* Define a altura do elemento para ocupar a altura da janela do navegador */
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start;
+    height: 10vh; 
 }
 
 
@@ -220,20 +220,20 @@ body {
 
 .serv_1 p {
     width: 100%;
-    height: 50vh; /* 100% da altura da viewport (janela de visualização) */
+    height: 50vh; 
     display: flex;
-    justify-content: flex-start; /* Alinhar os elementos à esquerda */
+    justify-content: flex-start; 
     align-items: center;    
     line-height: 1.2;
     padding: 50px;
-    padding-top: 20px; /* Espaço na parte superior */
-    margin-bottom: 20px; /* Espaço na parte inferior */
+    padding-top: 20px; 
+    margin-bottom: 20px; 
 }
 
 .img_serv {
-    display: flex; /* Tornar o container flexível */
-    justify-content: center; /* Centralizar horizontalmente as imagens */
-    gap: 50px; /* Espaçamento de 50px entre as imagens */
+    display: flex; 
+    justify-content: center; 
+    gap: 50px; 
 }
 
 .img_serv img {
@@ -249,8 +249,8 @@ body {
 }
 
 .proj-site {
-    display: inline-block; /* Tornar as divs em linha */
-    margin-right: 20px; /* Adicionar espaçamento entre as divs */
+    display: inline-block; 
+    margin-right: 20px; 
     margin-left: 22px;
     justify-content: center;        
 }
@@ -270,34 +270,31 @@ body {
     background: #081b29;
     height: 50vh;
 
-    text-align: center; /* Centralizar o conteúdo horizontalmente */
+    text-align: center; 
 }
 
 .contact-item {
-    display: inline-block; /* Coloque os itens em linha */
-    margin: 0 20px; /* Espaçamento de 20px entre os itens */
-    text-align: center; /* Centralize o conteúdo dentro do item */
+    display: inline-block; 
+    margin: 0 20px; 
+    text-align: center; 
 }
 
 .contact-item a {
-    display: block; /* Converte o link em um bloco para definir a largura e a altura */
+    display: block; 
 }
 
 .contact-item i {
     font-size: 100px;
-    color: #00abf0; /* Cor dos links */ /* Tamanho do ícone */
-    /* Outros estilos que você pode adicionar, como cores, margens, preenchimento, etc. */
+    color: #00abf0;     
 }
 
 .contact-item p {
-    margin-top: 10px; /* Espaçamento entre o ícone e o nome */
-    /* Outros estilos para o nome, como tamanho de fonte, cor, etc. */
+    margin-top: 10px;     
 }
 
-/* Estilize os links, se necessário */
 .cont_contact a {
     text-decoration: none;
-    color: #00abf0; /* Cor dos links */
+    color: #00abf0;
 }
 
 
